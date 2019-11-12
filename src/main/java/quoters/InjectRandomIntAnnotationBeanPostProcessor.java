@@ -6,6 +6,7 @@ import org.springframework.util.ReflectionUtils;
 
 import java.lang.reflect.Field;
 import java.util.Random;
+import quoters.InjectRandomInt;
 
 public class InjectRandomIntAnnotationBeanPostProcessor implements BeanPostProcessor {
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
