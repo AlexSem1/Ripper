@@ -2,7 +2,7 @@ package quoters;
 
 import quoters.Quoter;
 
-public class T1000 extends quoters.TerminatorQuoter implements Quoter {
+public class T1000 extends TerminatorQuoter implements Quoter {
 
 
     @Override

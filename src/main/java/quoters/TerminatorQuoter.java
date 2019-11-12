@@ -1,12 +1,6 @@
 package quoters;
 
 import javax.annotation.PostConstruct;
-import quoters.DeprecatedClass;
-import quoters.InjectRandomInt;
-import quoters.PostProxy;
-import quoters.Profiling;
-import quoters.Quoter;
-import quoters.T1000;
 
 @Profiling
 @DeprecatedClass(newImpl = T1000.class)
